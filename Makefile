@@ -1,5 +1,5 @@
-IMAGE := social-coop-lego:latest
-CONTAINER := social-coop-lego
+IMAGE := socialcooperative/lego:latest
+CONTAINER := mastodon_lego
 WORKDIR := /usr/app
 
 build:

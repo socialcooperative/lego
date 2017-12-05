@@ -35,7 +35,7 @@ To reduce the size of the image:
     $ make flatten
 
     REPOSITORY           TAG                 IMAGE ID            CREATED             SIZE
-    docker-alpine-ruby   latest              aaad6c488c79        8 seconds ago       29.24 MB
+    mastodon_lego        latest              aaad6c488c79        8 seconds ago       29.24 MB
     <none>               <none>              1fa6b8033680        3 minutes ago       31.93 MB
     alpine               3.4                 4e38e38c8ce0        8 weeks ago         4.799 MB
 
@@ -44,7 +44,7 @@ Remove containers and images:
     $ docker ps -a
 
     CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
-    c20ce0f07d47        1fa6b8033680        "/bin/sh"           2 minutes ago       Created                                 docker-alpine-ruby
+    c20ce0f07d47        1fa6b8033680        "/bin/sh"           2 minutes ago       Created                                 mastodon_lego
 
     $ make remove_all_containers
     $ make remove_all_images
